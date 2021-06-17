@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fira sans', sans-serif;
+}
+
+body{
+     margin: 0;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+a{
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+
+/* column design for mobile phones starts here */
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+/* column design for mobile phones ends here */
+
+
+
+/* navbar design starts here  */
+.navbar{
+    background-color: #40868b;
+     /* background-image: linear-gradient(to right, green, orange); */   
+    padding: 1% 7%;
+    text-align: center;
+}
+
+.nav-heading h1{
+    color: black; 
+    margin: 0;    
+    padding-top: 10px;   
+ }
+
+ .navbar-menu{
+     display: flex;
+     flex-direction: column;  
+     text-transform: uppercase; 
+ }
+
+.navbar-menu a{      
+     background-color: #0c6168;
+     border-radius: 10px;     
+     margin: 7px 0px;  
+     padding: 10px;      
+ }
+
+ .navbar-menu a:hover{
+    background-color: gray;
+    /* text-decoration: underline; */
+ }
+
+.navbar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* navbar design ends here  */
