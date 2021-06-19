@@ -30,9 +30,49 @@
    text-decoration: none;
    color: black;
    padding: 5px 10px;
-   background-color: silver;
    margin: 20px 0;   
    border-radius: 10px;  
    font-size: 1.2rem;
 }
 /* navbar designing ends here */
+
+/* profile designing starts here  */
+.profile .top-weather-icon{
+    position: absolute;
+    right: 140px;
+    top: 20px; 
+    width: 120px; 
+    transition: width 2s, transform 2s;
+  }
+  
+  .profile .top-weather-icon:hover{
+     width: 140px;
+  }
+  
+  
+  .profile-desc h1{
+      font-size: 3rem;
+      
+  }
+  
+  .profile-desc p{   
+      color: gray;  
+      margin: 0 auto; 
+      width: 50%; 
+      text-align: center;  
+      margin-bottom: 10px; 
+  }
+  
+  .profile .bottom-weather-icon{
+      position: absolute;
+      left: 140px;
+      bottom: 20px;
+      width: 120px; 
+      transition: width 2s, transform 2s;
+  } 
+  
+  .profile .bottom-weather-icon:hover{
+      width: 140px;   
+  } 
+  
+  /* profile designing ends here  */
