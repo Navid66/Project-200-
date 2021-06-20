@@ -76,3 +76,28 @@
   } 
   
   /* profile designing ends here  */
+
+  /* about-me designing starts here  */
+
+.about-me{
+   
+    background-color: #39a4ac;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+    padding: 1% 7%;  
+    text-align: center; 
+}
+
+.aboutme-image{
+    margin-top: 100px;
+}
+
+.aboutme-image img{   
+    height: 270px;
+    width: 250px; 
+}
+.aboutme-desc p{
+    text-align: left;
+}
+
+/* about-me designing ends here  */
