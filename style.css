@@ -178,7 +178,7 @@ p{
 }
 /* about me ends here  */
 
-/* Navid Reza's Education div starts here  */
+/* Education div starts here  */
 .education{
     padding: 1% 0%;
 }
@@ -190,9 +190,9 @@ p{
 }
 
 .education .card:hover{
-    box-shadow: 0 4px 8px 5px black;
-}
+    box-shadow: 0 4px 8px 5px black
 
+}
 .card-icon{
     text-align: center;
 }
@@ -214,11 +214,15 @@ p{
     text-align: center;
 }
 
+
+
+/* Skill's div starts here */
+
 .skills-container{
     padding-right: 45px;
 }
 
-/* progress bar for skill div starts here  */
+
 .skills-container li{
     font-weight: bolder;
     list-style: none;
@@ -256,155 +260,104 @@ p{
     animation-iteration-count: 3;
 }
 
-
 .skills-container li.html::after{
-   animation-name: html;
-}
-
-@keyframes html{
-    to{
-        width: 90%;
-        /* background-color: orange; */
-    }
-}
-.skills-container li.css::after{
-   animation-name: css;
-}
-
-@keyframes css{
-    to{
-        width: 80%;
-    }
-}
-
-.skills-container li.bootstrap::after{
-    animation-name: bs;
+    animation-name: html;
  }
  
- @keyframes bs{
+ @keyframes html{
      to{
-         width: 85%;
+         width: 90%;
+         /* background-color: orange; */
      }
  }
-
-.skills-container li.js::after{
-   animation-name: js;
-}
-
-@keyframes js{
-    to{
-        width: 75%;
-    }
-}
-
-.skills-container li.jquery::after{
-    animation-name: jq;
+ .skills-container li.css::after{
+    animation-name: css;
  }
  
- @keyframes jq{
+ @keyframes css{
      to{
          width: 80%;
      }
  }
-
-
-
-.skills-container li.node::after{
-   animation-name: node;
-}
-
-@keyframes node{
-    to{
-        width: 85%;
-    }
-}
-
-.skills-container li.express::after{
-    animation-name: express;
+ 
+ .skills-container li.bootstrap::after{
+     animation-name: bs;
+  }
+  
+  @keyframes bs{
+      to{
+          width: 85%;
+      }
+  }
+ 
+ .skills-container li.js::after{
+    animation-name: js;
  }
  
- @keyframes express{
-     to{
-         width: 75%;
-     }
- }
-
- .skills-container li.git::after{
-    animation-name: github;
- }
- 
- @keyframes github{
+ @keyframes js{
      to{
          width: 75%;
      }
  }
  
-
-.skills-container li.react::after{
-   animation-name: react;
-}
-
-@keyframes react{
-    to{
-        width: 65%;
-    }
-}
-
-/* progress bar for skill div starts here  */
-
-.education::after{
-    clear: both;
-    content: '';
-    display: table;
-    
-}
-
-/* Navid Reza's Education div ends here  */
-
-/* Fahid Ahmed's Education div starts here  */
-
-.education{
-    padding: 1% 0%;
-}
-
-.education .card{
-    background-color: #a39e9e;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.education .card:hover{
-    box-shadow: 0 4px 8px 5px black;
-}
-
-.card-icon{
-    text-align: center;
-}
-.card-icon img{
-    margin-top: 20px;
-    width: 80px;
-}
-
-.rounded-img{
-    border: 5px solid white;
-    border-radius: 50%;
-    padding: 10px;
-}
-
-.card-title h2{
-    background-color: #616161;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
+ .skills-container li.jquery::after{
+     animation-name: jq;
+  }
+  
+  @keyframes jq{
+      to{
+          width: 80%;
+      }
+  }
+ 
+ 
+ 
+ .skills-container li.node::after{
+    animation-name: node;
+ }
+ 
+ @keyframes node{
+     to{
+         width: 85%;
+     }
+ }
+ 
+ .skills-container li.express::after{
+     animation-name: express;
+  }
+  
+  @keyframes express{
+      to{
+          width: 75%;
+      }
+  }
+ 
+  .skills-container li.git::after{
+     animation-name: github;
+  }
+  
+  @keyframes github{
+      to{
+          width: 75%;
+      }
+  }
+  
+ 
+ .skills-container li.react::after{
+    animation-name: react;
+ }
+ 
+ @keyframes react{
+     to{
+         width: 65%;
+     }
+ }
+ /* Skill's div ends here */
 
 .education::after{
     clear: both;
     content: '';
     display: table;
-    
-}
+}        
 
-
-
-/* Fahid Ahmed's Education div ends here  */
+/* Education div ends here */
