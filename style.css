@@ -214,10 +214,41 @@ p{
     text-align: center;
 }
 
+/* Skill's div ends here */
+.skills{
+    padding: 1% 0%;
+}
 
+.skills .card{
+    background-color: #a39e9e;
+    border-radius: 5px;
+    padding: 10px;
+}
 
-/* Skill's div starts here */
+.skills .card:hover{
+    box-shadow: 0 4px 8px 5px black
 
+}
+.card-icon{
+    text-align: center;
+}
+.card-icon img{
+    margin-top: 20px;
+    width: 80px;
+}
+
+.rounded-img{
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.card-title h2{
+    background-color: #616161;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 .skills-container{
     padding-right: 45px;
 }
@@ -270,6 +301,7 @@ p{
          /* background-color: orange; */
      }
  }
+
  .skills-container li.css::after{
     animation-name: css;
  }
@@ -299,18 +331,16 @@ p{
          width: 75%;
      }
  }
- 
+
  .skills-container li.jquery::after{
-     animation-name: jq;
-  }
-  
-  @keyframes jq{
-      to{
-          width: 80%;
-      }
-  }
+    animation-name: jq;
+ }
  
- 
+ @keyframes jq{
+     to{
+         width: 80%;
+     }
+ }
  
  .skills-container li.node::after{
     animation-name: node;
@@ -321,18 +351,7 @@ p{
          width: 85%;
      }
  }
- 
- .skills-container li.express::after{
-     animation-name: express;
-  }
-  
-  @keyframes express{
-      to{
-          width: 75%;
-      }
-  }
- 
-  .skills-container li.git::after{
+ .skills-container li.git::after{
      animation-name: github;
   }
   
@@ -340,19 +359,9 @@ p{
       to{
           width: 75%;
       }
-  }
-  
- 
- .skills-container li.react::after{
-    animation-name: react;
- }
- 
- @keyframes react{
-     to{
-         width: 65%;
-     }
- }
- /* Skill's div ends here */
+  } 
+
+/* Skill's div ends here */
 
 .education::after{
     clear: both;

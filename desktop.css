@@ -102,11 +102,23 @@
 
 /* about-me designing ends here  */
 
+/* Education Skill's div starts here  */
 
-/*  div starts here  */
 .Education{
-    padding: 1% 5%;
+    padding: 0.5% 0.9%;
 }
-/* div ends here  */
+.skills{
+    padding: 0.44% 3%;
+}
+/* Education Skill's div ends here  */
 
+/* Education Skill's div starts here  */
 
+.Education{
+    padding: 0.5% 0.95%;
+}
+.skills{
+    padding: 0.44% 0.3%;
+}
+
+/* Education Skill's div starts here */
