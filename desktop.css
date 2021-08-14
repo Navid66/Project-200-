@@ -105,20 +105,34 @@
 /* Education Skill's div starts here  */
 
 .Education{
-    padding: 0.5% 0.9%;
+    padding: 0.5% 0.7%;
 }
 .skills{
-    padding: 0.44% 3%;
+    padding: 0.7% 0.5%;
 }
 /* Education Skill's div ends here  */
 
-/* Education Skill's div starts here  */
+/* Contact-More Ways to contact div starts here */
 
-.Education{
-    padding: 0.5% 0.95%;
-}
-.skills{
-    padding: 0.44% 0.3%;
+.contact button{           
+    width: 150px;   
 }
 
-/* Education Skill's div starts here */
+.contact-links{
+    text-align: center; 
+    position: relative;     
+} 
+
+.media-buttons{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    margin: 5px;
+    width: 80px;
+}
+/* Contact-More Ways to contact div ends here */
