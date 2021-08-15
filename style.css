@@ -213,8 +213,15 @@ p{
     padding: 10px;
     text-align: center;
 }
+.education::after{
+    clear: both;
+    content: '';
+    display: table;
+}        
 
-/* Skill's div ends here */
+/* Education div ends here */
+
+/* Skill's div starts here */
 .skills{
     padding: 1% 0%;
 }
@@ -359,21 +366,12 @@ p{
           width: 70%;
       }
 } 
-
 /* Skill's div ends here */
-
-.education::after{
-    clear: both;
-    content: '';
-    display: table;
-}        
-
-/* Education div ends here */
 
 /* Contact-More Ways to contact div starts here */
 
 .contact{
-    background-color: #39a4ac;
+    background-color:  #39a4ac;
     color: white; 
 }
 .contact{
@@ -395,8 +393,8 @@ p{
 .contact button{           
     border: none;
     border-radius: 12px;
-    background-color: #052d2f; 
-    color: white;
+    background-color:white; 
+    color:black;
     cursor: pointer;
     font-size: 1rem;
     margin: 10px; 
@@ -404,17 +402,14 @@ p{
     width: 100px;   
 }
 
-/* .contact input:focus, textarea:focus, button:focus{
-    background-color: gray;
-    width: 100%;
-} */
+.contact button:hover {
+    background-color :#616161;
+}
   
 .contact-links{
     text-align: center; 
     margin-bottom: 20px;     
 } 
-
-
 
 .media-buttons .btn{
     border: none; 
@@ -425,16 +420,46 @@ p{
     padding: 5px; 
     width: 50px;
     background-color: white;
-  }
+}
   
-  /* Darker background on mouse-over */
-  .btn:hover {
-    background-color: gray;
-  }
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color :#616161;
+}
 
 .contact::after{
     content: '';
     clear: both;
     display: table;
 }
+
 /* Contact-More Ways to contact div ends here */
+
+/* footer div starts here  */
+
+.footer{
+  background-color: gray;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer-menu a{
+  display: block;
+  margin: 15px 0;
+  font-size: 1rem;
+}
+
+.footer-menu a:hover{
+    color: white;
+}
+
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* footer div ends here  */
