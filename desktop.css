@@ -107,10 +107,13 @@
 .Education{
     padding: 0.5% 0.7%;
 }
+
 .skills{
     padding: 0.7% 0.5%;
 }
+
 /* Education Skill's div ends here  */
+
 
 /* Contact-More Ways to contact div starts here */
 
@@ -133,6 +136,20 @@
 
 .btn{
     margin: 5px;
-    width: 80px;
+    width: 5px;
 }
+
 /* Contact-More Ways to contact div ends here */
+
+/* footer designing starts here */
+
+.footer-menu{
+    margin-top: 12px;
+}
+
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
+
+/* footer designing ends here */

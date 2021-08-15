@@ -18,24 +18,28 @@
 <body>
 
         <div class="navbar">
-         <div class="nav-logo col-2">
+           <div class="nav-logo col-1">
                <img src="images/logo 3.png" alt="logo 3">
-         </div>
+            </div>
 
-          <div class="nav-heading col-4">
+           <div class="nav-heading col-4">
                <h1>Navid & Fahid</h1>
-          </div>
+            </div>
 
-           <div class="navbar-menu col-6">
-              <a href="#">Home</a>
-              <a href="#">About Us</a>
-              <a href="#">Our Skills</a>
-              <a href="#">Contact Us</a>
+           <div class="navbar-menu col-7">
+              <a href="#profile-id">Home</a>
+              <a href="#about-me-id">About Us</a>
+              <a href="#skill-id">Our Education & Skills</a>
+              <a href="#contact-id">Contact Us</a>
+            </div> 
            </div> 
+            </div> 
+           </div> 
+            </div> 
         </div>
 
         <!-- profile div starts here  -->
-    <div class="profile">
+    <div class="profile" id="profile-id">
         <img class="top-weather-icon" src="images/weather.png" alt="top weather icon">
         <div class="profile-desc">
             <h1> We are Student's & learning  <br> About <br> How to be a Web Developer</h1>
@@ -150,7 +154,7 @@
            </div>
        </div> 
        
-       <div class="skills">
+       <div class="skills" id="skill-id">
          <div class="skills col-6">
                 <div class="card">
                     <div class="card-icon">                 
@@ -269,7 +273,7 @@
     <!-- Contact-More Ways to contact div starts here-->
 
     <div class="Contact-More Ways to contact">
-        <div class="contact col-6" id="contact-us">
+        <div class="contact col-6" id="contact-id">
             <h2>CONTACT US</h2>
             <hr class="dotted-hr">
             <form action="mailto:navidreza710@gmail.com ahmedfahid31@gmail.com" method="post" enctype="text/plain">
@@ -286,15 +290,33 @@
             <hr class="dotted-hr">        
            
             <div class="media-buttons">
+              <button class="btn" onclick="window.open('https://www.facebook.com/navid.reza.7549')" class="btn request-callback"><i class="fa fa-facebook" aria-hidden="true" style="color: #3b5998;"></i></button>
               <button class="btn" onclick="window.open('https://github.com/Navid66')" class="btn request-callback"><i class="fa fa-github" aria-hidden="true" style="color: #000000;"></i></button>
+              <button class="btn" onclick="window.open('https://www.facebook.com/ahmedfahid')" class="btn request-callback"><i class="fa fa-facebook" aria-hidden="true" style="color: #3b5998;"></i></button>
               <button class="btn" onclick="window.open('https://github.com/Fahid31')" class="btn request-callback"><i class="fa fa-github" aria-hidden="true" style="color: #000000;"></i></button>
-    
-            </div>
+           </div>
         </div>
     </div>
 
     <!-- Contact-More Ways to contact div ends here-->
-            
+    
+    <!--footer div starts here-->
+
+    <div class="footer">          
+        <div class="footer-menu col-6">
+            <a href="#profile-id">Home</a>
+            <a href="#about-me-id">About Us</a>
+            <a href="#skill-id">Our Education & Skills</a>
+            <a href="#contact-id">Contact Us</a>
+        </div>
+
+        <div class="footer-desc col-6">
+           &copy; Navid & Fahid 2021. Developed with <span style="color: red; font-size: 1.5rem;">❤</span> By Navid & Fahid
+        </div>  
+    </div>
+
+    <!--footer div starts here-->
+      
 
 </body>
 </html>
